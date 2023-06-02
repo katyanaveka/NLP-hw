@@ -4,6 +4,8 @@
 
 2. Text categorization *contest* [Argument Mining Competition](https://codalab.lisn.upsaclay.fr/competitions/786)
 
+**Methodology**
+
 I tried to use 2 pretrained models: mbert and rubert-tiny because these models are lighter than xmlr and rubert. I decided to use new model for each class.
 
 Firstly I decided to see how each model deals with task of classification by itself, then tried to make a simple ansamble: took an average of logits for each label which were predicted by each model.
